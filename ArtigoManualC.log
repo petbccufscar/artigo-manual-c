@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.21)  15 NOV 2021 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.10.21)  22 NOV 2021 16:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -132,20 +132,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 10.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/fonta42/Desktop/PET/Manual C/artigo-manual-c/ArtigoManualC.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (/home/fonta42/Desktop/PET/Manual C/artigo-manual-c/ArtigoManualC.aux) ) 
 Here is how much of TeX's memory you used:
- 1833 strings out of 479304
- 28501 string characters out of 5869778
- 328169 words of memory out of 5000000
- 19056 multiletter control sequences out of 15000+600000
- 407377 words of font info for 40 fonts, out of 8000000 for 9000
+ 1842 strings out of 479304
+ 28584 string characters out of 5869778
+ 333187 words of memory out of 5000000
+ 19063 multiletter control sequences out of 15000+600000
+ 408031 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,74p,256b,203s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "/home/fonta42/Desktop/PET/Manual C/artigo-manual-c/ArtigoManualC.pdf" (1 page, 35552 bytes).
+ 68i,7n,74p,1122b,203s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "/home/fonta42/Desktop/PET/Manual C/artigo-manual-c/ArtigoManualC.pdf" (2 pages, 70840 bytes).
 PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 27 PDF objects out of 1000 (max. 8388607)
+ 18 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
