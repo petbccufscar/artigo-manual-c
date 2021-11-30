@@ -6,7 +6,9 @@
 \usepackage[portuges, brazil]{babel}
 \usepackage[acronym]{glossaries}
 \usepackage{textcomp}
-
+\usepackage{graphicx}
+\usepackage{float} %usado pra posicionar imagens
+\graphicspath{ {./imgs/} }
 \makeglossaries
 
 \newacronym{UFSCar}{UFSCar}{Universidade Federal de São Carlos}
@@ -43,6 +45,37 @@ No contexto do \ac{DC}, a linguagem C se faz importante logo nos primeiros semes
 % SEÇÃO PLANEJAMENTO INICIAL
 \section{Planejamento inicial do projeto}
 \subsection{Design}
+% #TODO referenciar de alguma forma o Figma? 
+Para a criação do design do projeto o grupo optou por utilizar a ferramenta Figma, com ela é possível fazer a prototipação de sites, aplicativos e programas. Dessa forma, foi possível desenvolver a aparência de cada página, com os conteúdos esperados, antes mesmo de iniciar-se a implementação.
+
+% #TODO buscar alguma referência para validar o layout
+Para o design definiu-se 3 tipos de layout de página que se repetiriam ao longo do site, em busca de manter o padrão. A primeira página é a principal, nela estão contidas informações relativas ao objetivo do projeto, público alvo, um guia rápido de uso e navegação pelo site, um espaço para sugestões e para colaboradores do projeto, há também uma barra lateral para fácil navegação entre os cabeçalhos. O objetivo desta página é ser a porta de entrada do usuário para o projeto, explicando de maneira rápida o projeto e proporcionando uma fácil navegação para os cabeçalhos.
+
+% #TODO editar a formatação ver com o Renato como melhor fazer isso
+\begin{figure}
+  \caption{Design da página principal}
+  \centering
+  \includegraphics[width=0.5\textwidth]{print_pagina_principal.png}
+\end{figure}
+
+O segundo tipo de página são as páginas de cabeçalhos, seu objetivo é apresentar ao usuário do site um resumo do que aquele cabeçalho faz, quais funções ele contêm e o que cada uma faz, de forma bem resumida. Dessa forma, o usuário tem de forma fácil e rápida informações relativas ao cabeçalho em questão, proporcionando uma rápida navegação para uma determinada função que se esteja a procura.
+
+% #TODO editar a formatação ver com o Renato como melhor fazer isso
+\begin{figure}
+  \caption{Design da página de cabeçalhos}
+  \centering
+  \includegraphics[width=0.5\textwidth]{print_pagina_cabecalhos.png}
+\end{figure}
+
+O terceiro e último layout de página são as de funções, nelas estão contidas informações relativas a função em questão. Assim sendo, ela possui os parâmetros que a função recebe e o retorno da mesma, um exemplo de implementação em código da função e o retorno deste exemplo. Logo, a página mostra de maneira simples o que a função faz e como usá-la.
+
+% #TODO editar a formatação ver com o Renato como melhor fazer isso
+\begin{figure}
+  \caption{Design da página de função}
+  \centering
+  \includegraphics[width=0.5\textwidth]{print_pagina_funcao.png}
+\end{figure}
+
 \subsection{Pesquisa}
 A equipe de pesquisa encarregou-se de escrever os textos e códigos exemplos que viriam a ser implementados no site do manual.
 
